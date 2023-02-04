@@ -20,7 +20,7 @@ my_fruit_list = my_fruit_list.set_index('Fruit')
 streamlit.multiselect("Pick some fruits:", 
                       list(my_fruit_list.index), 
                       ["Avacado","Strawberries"],
-                      default=["Avacado","Strawberries"]
+                      default=["Avacado","Strawberries"],
                       )
 
 # Display the table on the page.
