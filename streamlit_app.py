@@ -29,4 +29,4 @@ streamlit.multiselect("Pick some fruits:",
                       )
 
 # Display the table on the page.
-streamlit.dataframe(my_fruit_list)
+# streamlit.dataframe(my_fruit_list)
