@@ -121,6 +121,3 @@ if streamlit.button('Get Fruit List'):
 
 
 
-
-
-
