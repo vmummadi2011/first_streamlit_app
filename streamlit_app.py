@@ -36,7 +36,7 @@ streamlit.write('The user entered', fruit_choice)
 
 #New Section to display fruityvice api response
 import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" +fruit_choice)
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
 
 # deleted ... streamlit.text(fruityvice_response.json())  # just writes the data to the screen
 
